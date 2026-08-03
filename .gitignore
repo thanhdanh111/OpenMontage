@@ -18,7 +18,6 @@ htmlcov/
 .coverage
 .trae/
 .idea/
-.vscode/
 
 # Pipeline outputs (regenerable — never commit large media)
 output/
@@ -39,8 +38,6 @@ corpus/
 music_library/
 
 # Environment & credentials
-.env
-.env.local
 *.env
 .youtube-token.json
 # Google service-account / Vertex AI keys — never commit
@@ -97,3 +94,4 @@ venv/
 
 # Backlot local cache (thumbnails)
 .backlot/
+config.bat
